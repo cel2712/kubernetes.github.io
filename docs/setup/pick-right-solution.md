@@ -14,12 +14,12 @@ If you just want to "kick the tires" on Kubernetes, use the [local Docker-based 
 
 When you are ready to scale up to more machines and higher availability, a [hosted solution](#hosted-solutions) is the easiest to create and maintain.
 
-[Turnkey cloud solutions](#turnkey-cloud-solutions) require only a few commands to create
+[Turn-key Cloud Solutions](#turn-key-cloud-solutions) require only a few commands to create
 and cover a wide range of cloud providers.
 
 If you already have a way to configure hosting resources, use [kubeadm](/docs/getting-started-guides/kubeadm/) to easily bring up a cluster with a single command per machine.
 
-[Custom solutions](#custom-solutions) vary from step-by-step instructions to general advice for setting up
+[Custom Solutions](#custom-solutions) vary from step-by-step instructions to general advice for setting up
 a Kubernetes cluster from scratch.
 
 * TOC
@@ -31,7 +31,7 @@ a Kubernetes cluster from scratch.
 
 * [Ubuntu on LXD](/docs/getting-started-guides/ubuntu/local) supports a nine-instance deployment on localhost.
 
-* [IBM Cloud private-ce (Community Edition)](https://www.ibm.com/support/knowledgecenter/en/SSBS6K/product_welcome_cloud_private.html) can use VirtualBox on your machine to deploy Kubernetes to one or more VMs for dev and test scenarios. Scales to full multi-node cluster. Free version of the enterprise solution.
+* [IBM Cloud Private-CE (Community Edition)](https://www.ibm.com/support/knowledgecenter/en/SSBS6K/product_welcome_cloud_private.html) can use VirtualBox on your machine to deploy Kubernetes to one or more VMs for dev and test scenarios. Scales to full multi-node cluster. Free version of the enterprise solution.
 
 # Hosted Solutions
 
@@ -59,7 +59,7 @@ a Kubernetes cluster from scratch.
 
 * [Giant Swarm](https://giantswarm.io/product/) offers managed Kubernetes clusters in their own datacenter, on-premises, or on public clouds.
 
-# Turnkey Cloud Solutions
+# Turn-key Cloud Solutions
 
 These solutions allow you to create Kubernetes clusters on a range of Cloud IaaS providers with only a
 few commands. These solutions are actively developed and have active community support.
